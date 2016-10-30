@@ -41,7 +41,7 @@ try {
 						<html lang="en-us">
 							<head>
 								<meta charset="utf-8">
-								<title>Roxie Ablett - I Write Stuff m8s</title>
+								<title>Roxie Ablett - copyediting and web–copywriting</title>
 								<link rel="shortcut icon" href="/favicon.ico">
                 ${styleTag}
 							</head>
