@@ -20,7 +20,7 @@ export default class Nav extends Component {
           </div>
           <div className={s.links}>
             <Link to="/services">Things I do</Link>
-            <Link to="/portfolio">Things I’ve done</Link>
+            {/*<Link to="/portfolio">Things I’ve done</Link>*/}
             <Link to="#">Let’s Be Friends</Link>
           </div>
         </Wrapper>

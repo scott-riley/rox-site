@@ -35,7 +35,7 @@ try {
 					return;
 				}
 
-				Transmit.renderToString(ReactRouter.RoutingContext, renderProps).then(({reactString, reactData}) => {
+				Transmit.renderToString(ReactRouter.RouterContext, renderProps).then(({reactString, reactData}) => {
 					let template = (
 						`<!doctype html>
 						<html lang="en-us">
