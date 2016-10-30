@@ -8,7 +8,6 @@ import * as ReactRouter from "react-router";
 import * as history from "history";
 import Transmit from "react-transmit";
 
-import githubApi from "apis/github";
 import routesContainer from "containers/routes";
 
 try {
@@ -18,12 +17,6 @@ try {
 	let   routes   = routesContainer;
 
 	app.use(koaStatic("static"));
-
-	app.use(koaProxy({
-		host: githubApi.url,
-		match: /^\/api\/github\//i,
-		map: (path) => path.replace(/^\/api\/github\//i, "/")
-	}));
 
 	app.use(function *(next) {
 		yield ((callback) => {
