@@ -41,6 +41,7 @@ try {
 						<html lang="en-us">
 							<head>
 								<meta charset="utf-8">
+                <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 								<title>Roxie Ablett - copyediting and web–copywriting</title>
 								<link rel="shortcut icon" href="/favicon.png">
                 ${styleTag}
