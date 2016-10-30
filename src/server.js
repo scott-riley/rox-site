@@ -22,6 +22,7 @@ try {
 		yield ((callback) => {
 			const webserver = __PRODUCTION__ ? "" : `//${this.hostname}:8080`;
 			const location  = history.createLocation(this.path);
+      const styleTag  = __PRODUCTION__ ? `<link rel="stylesheet" type="text/css" href="${webserver}/dist/app.css" />` : "";
 
 			ReactRouter.match({routes, location}, (error, redirectLocation, renderProps) => {
 				if (redirectLocation) {
@@ -42,6 +43,7 @@ try {
 								<meta charset="utf-8">
 								<title>Roxie Ablett - I Write Stuff m8s</title>
 								<link rel="shortcut icon" href="/favicon.ico">
+                ${styleTag}
 							</head>
 							<body>
 								<div id="react-root">${reactString}</div>
