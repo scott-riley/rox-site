@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router';
 import {bindActionCreators} from 'redux';
+import {connect} from 'react-redux';
 import {reduxForm} from 'redux-form';
 import {sendMessage} from 'actions/index';
 
@@ -62,7 +63,11 @@ function mapDispatchToProps(dispatch) {
   }, dispatch);
 }
 
-export default reduxForm({
+Hire = reduxForm({
   form: 'ContactForm',
   fields: ['name', 'email', 'details']
-}, mapStateToProps, mapDispatchToProps)(Hire);
+})(Hire);
+
+Hire = connect(mapStateToProps, mapDispatchToProps)(Hire);
+
+export default Hire;

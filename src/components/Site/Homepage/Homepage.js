@@ -33,10 +33,10 @@ export default class Homepage extends Component {
                 I like playing with words and making&nbsp;people look cool.
               </h2>
               <p className={s.introPara}>
-                I specialise in web-copy, blog posts and articles, and audio transcriptions. I’m also a bookworm with an obsession with folk and fairy tales.
+                I specialise in copyediting and web–copywriting. I love editing books more than life.
               </p>
               <p className={s.introPara}>
-                Why not <Link to="/services" className={s.link}>see what I do</Link>, <Link to="/services" className={s.link}>check out my work</Link> or follow me on <a href="http://twitter.com/roxalox88" className={s.link}>Twitter</a>?
+                Why not <Link to="/services" className={s.link}>see what I do</Link> or follow me on <a href="http://twitter.com/roxalox88" className={s.link}>Twitter</a>?
                 <Link className={s.cta} to="/hire">Let’s be friends</Link>
               </p>
             </div>
