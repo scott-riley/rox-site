@@ -1,6 +1,7 @@
 .root {
   lost-utility: clearfix;
   padding: 1rem 0;
+  text-align: center;
 }
 
 .logo {
@@ -9,7 +10,6 @@
   font-family: "Alice", serif;
   font-weight: normal;
   vertical-align: middle;
-  float: left;
 }
 
 .logo a {
@@ -24,8 +24,23 @@
 }
 
 .links {
-  float: right;
+  clear: both;
   margin-top: 1.5rem;
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  .root {
+    text-align: left;
+  }
+  .logo {
+    float: left;
+  }
+  .links {
+    float: right;
+    clear: none;
+    text-align: left;
+  }
 }
 
 .links a {

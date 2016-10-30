@@ -1,6 +1,8 @@
 .hireForm {
   max-width: 73rem;
   margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .formGroup {
@@ -24,7 +26,7 @@
 .input {
   width: 100%;
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 1.3rem;
   background: white;
   border: none;
   border-bottom: 1px dashed rgba(0,0,0,.4);
@@ -44,13 +46,13 @@
 }
 
 .heading {
-  font-size: 10rem;
+  font-size: 4rem;
   line-height: 1;
   font-family: "Alice", serif;
   text-align: left;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  letter-spacing: -.4rem;
+  letter-spacing: -1px;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -61,6 +63,8 @@
 
 .cta {
   padding-bottom: 15vh;
-  font-size: 2rem;
+  font-size: 1.4rem;
   text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }

@@ -8,6 +8,8 @@
   align-items: center;
   height: 80vh;
   flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .wrap {
@@ -15,12 +17,13 @@
   margin: auto;
 }
 
-.face {
-  lost-column: 1/2;
-}
-
-.copy {
-  lost-column: 1/2;
+@media (min-width: 768px) {
+  .face {
+    lost-column: 1/2;
+  }
+  .copy {
+    lost-column: 1/2;
+  }
 }
 
 .face img {
@@ -31,8 +34,15 @@
 .heading {
   font-family: "Alice", sans-serif;
   font-weight: 400;
-  font-size: 4rem;
+  font-size: 2rem;
   padding-top: 0;
+  line-height: 1.3;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 4rem;
+  }
 }
 
 .subhead {
