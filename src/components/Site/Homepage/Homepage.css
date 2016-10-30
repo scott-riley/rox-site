@@ -1,0 +1,75 @@
+/*This would likely go in a more global place, but just an example of lost innit m8s*/
+.row {
+  lost-utility: clearfix;
+}
+
+.root {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  flex-direction: row;
+}
+
+.wrap {
+  max-width: 73rem;
+  margin: auto;
+}
+
+.face {
+  lost-column: 1/2;
+}
+
+.copy {
+  lost-column: 1/2;
+}
+
+.face img {
+  border-radius: 100%;
+  width: 80%;
+}
+
+.heading {
+  font-family: "Alice", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  padding-top: 0;
+}
+
+.subhead {
+  font-family: "brandon-grotesque", serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .14rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #775298;
+}
+
+.cta {
+  display: block;
+  background: white;
+  color: var(--color-background);
+  border-radius: 999px;
+  padding: .7rem 1rem;
+  text-decoration: none;
+  max-width: 240px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: .2rem;
+  -webkit-font-smoothing:antialiased;
+  margin-top: 2rem;
+}
+
+.introPara {
+  color: rgba(255,255,255,.9);
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-size: 1.244rem;
+  line-height: 1.56;
+}
+
+.link {
+  color: white;
+  border-bottom: 1px dashed #775298;
+  text-decoration: none;
+}

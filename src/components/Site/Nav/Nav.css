@@ -1,0 +1,46 @@
+.root {
+  lost-utility: clearfix;
+  padding: 1rem 0;
+}
+
+.logo {
+  display: inline-block;
+  color: white;
+  font-family: "Alice", serif;
+  font-weight: normal;
+  vertical-align: middle;
+  float: left;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.emoji {
+  vertical-align: middle;
+  margin-right: 1rem;
+
+}
+
+.links {
+  float: right;
+  margin-top: 1.5rem;
+}
+
+.links a {
+  display: inline-block;
+  margin: 0 2rem;
+  font-size: .9rem;
+  color: white;
+  text-decoration: none;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 900;
+  letter-spacing: .14rem;
+  text-transform: uppercase;
+}
+
+.links a:hover {
+  color: white;
+  border-bottom: 3px solid #775298;
+}

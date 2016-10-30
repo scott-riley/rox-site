@@ -1,0 +1,88 @@
+.section {
+  padding: 4rem 0;
+}
+
+.heading {
+  font-size: 10rem;
+  line-height: 1;
+  font-family: "Alice", serif;
+  text-align: left;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -.4rem;
+  text-align: center;
+}
+
+.logos {
+  max-width: 400px;
+  margin: auto;
+}
+
+.logos img {
+  width: 120px;
+  height: 120px;
+  margin-right: 4rem;
+  border-radius: 999px;
+  border: 2px solid white;
+}
+
+.portfolioItem {
+  lost-utility: clearfix;
+  max-width: 73rem;
+  margin: auto;
+  padding-top: 4rem;
+}
+
+.portfolioImage {
+  lost-column: 1/2;
+}
+
+.portfolioImage img {
+  border-radius: 100%;
+  width: 80%;
+}
+
+.portfolioContent {
+  lost-column: 1/2;
+}
+
+.portfolioHeading {
+  font-family: "Alice", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  padding-top: 0;
+  line-height: 1;
+}
+
+.subhead {
+  font-family: "brandon-grotesque", serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .14rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #775298;
+}
+
+.cta {
+  display: block;
+  background: white;
+  color: var(--color-background);
+  border-radius: 999px;
+  padding: .7rem 1rem;
+  text-decoration: none;
+  max-width: 240px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: .2rem;
+  -webkit-font-smoothing:antialiased;
+  margin-top: 2rem;
+}
+
+.introPara {
+  color: rgba(255,255,255,.9);
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-size: 1.244rem;
+  line-height: 1.56;
+}

@@ -1,0 +1,20 @@
+:root {
+  --color-primary: #DD3F47;
+  --color-secondary: #A9DDD7;
+  --color-tertiary: #00ABA0;
+  --color-body-copy: #fafafa;
+  --color-background: #fb6c76;
+
+  --font-omnes: "omnes-pro",sans-serif;
+
+  --font-size-base: 18px;
+  --font-size-alpha: 4.768em;
+  --font-size-beta: 3.815em;
+  --font-size-gamma: 3.052em;
+  --font-size-delta: 2.441em;
+  --font-size-epsilon: 1.953em;
+  --font-size-zeta: 1.563em;
+  --font-size-eta: 1.25em;
+  --font-size-theta: 1em;
+  --font-size-iota: 0.8em;
+}
